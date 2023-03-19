@@ -65,7 +65,7 @@ function barreiras(abertura, posicaoInicial) {
 
 function passaro(){
     this.passaro = novoElemento('img', 'passaro')
-    this.passaro.src = 'passaro.png'
+    this.passaro.src = '../assets/passaro.png'
 
     this.y = 350 //posicao vertical
     this.vy = 0 //velocidade vertical
