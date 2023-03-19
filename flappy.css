@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Pixel';
+    src: url('/fonts/Pixel.ttf');
+}
+
+*{
+    box-sizing: border-box;   
+}
+
+.titulo {
+    font-family: Pixel;
+    font-size: 50px
+}
+
+.content {
+    background-color: rgb(1, 46, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    min-height: 100%;
+}
+
+.tela-game {
+    position: relative;
+    width: 1000px;
+    height: 600px;
+    background-color: deepskyblue;
+    border: 4px solid dodgerblue;
+    overflow: hidden;
+    margin: 15px;
+}
+
+.barreira {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.corpo {
+    height: 200px;
+    width: 100px;
+    border: solid 0px 4px 0px 4px;
+    background: linear-gradient(45deg, rgb(92, 228, 92), rgb(1, 75, 1));
+    border-left: solid 2px black;
+    border-right: solid 2px black;
+}
+.borda{
+    background: linear-gradient(45deg, rgb(92, 228, 92), rgb(1, 75, 1));
+    height: 50px;
+    width: 120px;
+    border: solid 2px black;
+}
+
+.par-de-barreiras {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    height: 100%;
+}
+
+.passaro {
+    position: absolute;
+    width: 50px;
+    left: 400px;
+    top: 350px
+    
+}
+
+.meio{
+    height: 250px;
+}
+
+.progresso {
+    position: absolute;
+    right: 20px;
+    font-family: Pixel;
+    font-size: 40px;
+}
